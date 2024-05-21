@@ -1,0 +1,8 @@
+.btn-1 button{
+    width: 100%;
+    border: none;
+}
+.btn-1 button:hover{
+    width: 100%;
+    background-color: azure;
+}

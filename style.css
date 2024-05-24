@@ -1,40 +1,48 @@
 body{
     height: 100vh;
-    background-color: rgba(47, 47, 47, 0.497);
+    /* background-color: rgba(255, 250, 234, 0.695); */
+    background-image: url("https://i.pinimg.com/564x/67/dc/39/67dc39408a9bfbbd493e24f789b670a0.jpg");
+    background-position: center;
+    
 }
 
-.btn-1 button{
+.btn-1 button{ 
     min-width: 100%;
+    /* border: solid 1px black; */
+    /* border-radius: 5px; */
     border: none;
     max-width: 100px;
     min-height: 80px;
-    font-size: 2em;
-    
+    font-size: 1.8em;
+    background-color: #20262a;
+    color: #d3a00b;
 
 }
 .btn-1 button:hover{
     width: 100%;
-    background-color: azure;
+    background-color: rgb(69, 69, 69);
+    color: bisque;
 } 
 .btn-1 button:active{
     width: 100%;
-    background-color: hsla(180, 100%, 97%, 0.905);
+    background-color: rgb(62, 62, 62);
 } 
 
 
 
 #input-user{
-    border: none;
-    background-color: rgb(214, 214, 214);
-    height: 100px;
+    
+    
+    background-color:rgb(255, 255, 255) ;
     font-size: 2em;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
+    border: solid 3px  #285393;
+
+    height: 70px;
+    color: #3fa27d;
 }
 #input-user:active{
     border: none;
-    background-color: rgb(203, 203, 203);
-    height: 100px;
+    background-color: rgb(62, 62, 62);
 
 }
 
@@ -43,4 +51,34 @@ border-top-right-radius: 20px;
 }
 .btn-1-e{
     border-bottom-right-radius: 20px;
+}
+
+.input-div{
+background-color: #20262a;
+height: 120px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.btn-div{
+    padding-bottom: 30px;
+    background-color: #20262a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.history{
+    background-color: #20262a;
+    border-radius: 20px ;
+}
+.history h3{
+    color: #d3a00b;
+}
+
+#history-cal{
+    color: aliceblue;
 }
